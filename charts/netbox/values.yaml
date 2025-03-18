@@ -470,9 +470,8 @@ secretKey: ""
 # - secret_key: session encryption token (50+ random characters)
 existingSecret: ""
 
-
 ## Enable to allow for manual mounting of /run/secrets (e.g. using Secrets Store CSI Driver)
-# Disables all automatic mounting of secrets to /run/secrets
+## Disables all automatic mounting of secrets to /run/secrets
 customSecretMount: false
 
 # Override the NGINX Unit configuration inside the container. When enabled, this
